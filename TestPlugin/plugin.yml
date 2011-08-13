@@ -1,0 +1,9 @@
+name: TestPlugin
+main: me.main__.TestPlugin.TestPlugin
+version: 1.0.0
+author: main()
+commands:
+    test:
+        description: Test-Kommando
+        usage: |
+            /<command>
