@@ -34,6 +34,7 @@ public class TestPlugin extends JavaPlugin {
 		commands.put("test", new TestCommand());
 		
 		log.info("Das TestPlugin wurde aktiviert.");
+		System.out.println("(epic awesome test des TestPlugins)");
 	}
 	
 	public void onDisable(){ 
