@@ -4,7 +4,8 @@ import org.bukkit.command.CommandSender;
 
 public class TestCommand extends BaseCommand {
 	public TestCommand() {
-
+		needPlayer = false;
+		permission = "";
 	}
 	
 	public boolean run(CommandSender sender, String[] args) {
