@@ -1,0 +1,5 @@
+author: main()
+description: Testplugin! :D
+main: me.main__.testplugin.TestPlugin
+name: TestPlugin
+version: '1.0'
